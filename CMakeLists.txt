@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.18)
 PROJECT(libindi C CXX)
-
+set(CMAKE_VERBOSE_MAKEFILE ON)
 # As moc files are generated in the binary dir, tell CMake
 # to always look for includes there:
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
